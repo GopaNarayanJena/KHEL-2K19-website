@@ -1,0 +1,47 @@
+<html>
+<head>
+  <title>Khel 2K19</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="menubar.css">
+  <style media="screen">
+
+  </style>
+  <style media="screen">
+  @media screen and (max-width: 950px) {
+    .menu ul li:not(:first-child){display: none;}
+    .menu ul li.email{
+      float: right;
+      display: block;
+    }
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>RAMKRISHNA MAHATA GOVERNMENT ENGINEERING COLLEGE</h1>
+    <h2>Khel 2k19</h2>
+  </header>
+  <div class="menu">
+    <ul>
+      <li><a href="main1.html"><img src="home.png" width="20px" height="20px">Home</a></li>
+      <li class="active" class="ev"><a href="event.html">Events</a>
+        <div class="subev">
+          <a href="#">Individual Events</a>
+          <a href="#">Group Events</a>
+        </div>
+      </li>
+      <li><a href="#">Committee</a></li>
+      <li><a href="#">Result</a></li>
+      <li style="float:right;padding-right:10px;"><a href="main.html">Logout</a></li>
+      <li style="float:right;padding-left:4.5px;padding-right:4.5px;"><a href="#">Profile</a></li>
+      <li class="email" style="float:right;padding-left:4.5px;padding-right:4.5px;">
+        <a href="#">Email</a>
+      </li>
+    </ul>
+  </div>
+  <footer>
+    <p>Designed by <strong>Gopa Naryan Jena</strong></p>
+    <p>Guided  by <strong>Anisha</strong>-PCS GLOBAL</p>
+  </footer>
+</body>
+</html>

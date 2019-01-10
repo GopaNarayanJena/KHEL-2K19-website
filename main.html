@@ -1,0 +1,113 @@
+<html>
+<head>
+  <title>Khel 2K19</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="slider.css">
+  <link rel="stylesheet" type="text/css" href="menubar.css">
+  <style media="screen">
+    .notice{
+      display:block;
+      width: 100%;
+      height: 40px;
+      background-color: rgba(185, 176, 196,0.3);
+    }
+    div.notice p{
+      display: inline;
+      font-size: 30px;
+    }
+    #event>p{
+      text-align: center;
+      width:100%;
+      font-size: 40px;
+      text-decoration:underline;
+      padding: 0;
+      margin: 0;
+    }
+    .event{
+      border-radius: 5px;
+      background-image: radial-gradient(rgba(184, 244, 169,0.3),rgba(76, 221, 91,0.3));
+      margin-left: 15%;
+      margin-right: 15%;
+      width: 20%;
+      float: left;
+      font-size: 20px;
+      margin-bottom: 40px;
+      }
+    .event>ul>li{
+      list-style: none;
+      padding-left: 34px;
+    }
+  </style>
+  <style media="screen">
+  @media screen and (max-width: 950px) {
+    .menu ul li:not(:first-child){display: none;}
+    .menu ul li.login{
+      float: right;
+      display: block;
+    }
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>RAMKRISHNA MAHATA GOVERNMENT ENGINEERING COLLEGE</h1>
+    <h2>Khel 2k19</h2>
+  </header>
+  <div class="menu">
+    <ul>
+      <li id="active"><a href="main1.html"><img src="home.png" width="20px" height="20px">Home</a></li>
+      <li class="ev"><a href="event.html">Events</a>
+        <div class="subev">
+          <a href="event.html#IE">Individual Events</a>
+          <a href="event.html#GE">Group Events</a>
+        </div>
+      </li>
+      <li><a href="#">Committee</a></li>
+      <li><a href="#">Result</a></li>
+      <li class="login" style="float:right;padding-right:10px;"><a href="login.html">Login</a></li>
+    </ul>
+  </div>
+  <br>
+  <div id="slider">
+    <div class="slide" id="slide1"></div>
+    <div class="slide" id="slide2"><div class="subslide">
+      Play Today Live Tommorrow
+    </div></div>
+    <div class="slide" id="slide3"></div>
+  </div>
+  <br>
+  <div class="notice">
+    <marquee>
+        <p>sport on 23rd january <span color="red">||</span> </p>
+        <p>sports on at rkmgec</p>
+    </marquee>
+  </div>
+  <div id="event">
+    <p>Events</p>
+    <div class="event" id="individual">
+      <ul>
+        <p><strong><u>Individual Events</u></strong></p>
+        <li>100m Race</li>
+        <li>200m Race</li>
+        <li>400m Race</li>
+        <li>Shotput</li>
+        <li>Long Jump</li>
+      </ul>
+    </div>
+    <div class="event" id="group">
+      <ul style="padding-left:60px;">
+        <p><strong><u>Group Events</u></strong></p>
+        <li>Cricket</li>
+        <li>Kho-Kho</li>
+        <li>Football</li>
+        <li>Kabbadi</li>
+        <li>Volleyball</li>
+      </ul>
+    </div>
+  </div>
+  <footer>
+    <p>Designed by <strong>Gopa Naryan Jena</strong></p>
+    <p>Guided  by <strong>Anisha</strong>-PCS GLOBAL</p>
+  </footer>
+</body>
+</html>

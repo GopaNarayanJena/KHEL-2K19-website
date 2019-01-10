@@ -1,0 +1,181 @@
+<html>
+<head>
+  <title> Sports Management</title>
+</head>
+<style>
+.sec {
+  box-sizing: border-box;
+}
+#event_select {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#event_select td, #event_select th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#event_select tr:nth-child(even){background-color: #f2f2f2;}
+#event_select th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+.t1{
+  content: "";
+  width:100%;
+  clear=both;
+}
+img{
+  float:left;
+  width: 50%;
+  margin-top: 2.5%;
+
+}
+nav {
+  float: left;
+  width: 50%;
+  padding-left: 30px;
+}
+article {
+  float: left;
+  width: 50%;
+}
+p{
+  height: 15px;
+}
+footer{
+  background-color: grey;
+  height: 50px;
+  position: sticky;
+  bottom: -25px;
+}
+</style>
+<body>
+  <header><h1 align="center">Sports Management<hr></h1></header>
+  <form class="sec">
+    <div class="sec"><img src="s2.gif"></div>
+    <fieldset>
+    <legend><h2><u>Personnel Details</u></h2></legend>
+    <nav class="sec">
+      <p>REGISTRATION NO:</p>
+      <p>NAME:</p>
+      <p>DEPT:</p>
+      <p>STUDTY YEAR:</p>
+      <p>FATHER'S NAME:</p>
+      <p>MOTHER'S NAME:</p>
+      <P>AGE:</p>
+      <p>GENDER:</p>
+      <p>DOB:</p>
+      <p>MOBILE NO:</p>
+      <p>ADDRESS:</p>
+      <p>LINE 1:</p>
+      <p>LINE 2:</p>
+      <p>LINE 3:</p>
+    </nav>
+  <article class="sec">
+    <p><input type="text" id="regno" autofocus></p>
+    <p><input type="text" id="name"></p>
+    <p><input type="text" id="dept"></p>
+    <p><input type="text" id="year"></p>
+    <p><input type="text" id="fname"></p>
+    <p><input type="text" id="mname"></p>
+    <p><input type="text" id="age"></p>
+    <p><select id="gender">
+              <option value="male">male</option>
+              <option value="female">female</option>
+            </select></p>
+    <p><input type="date" id="dob"></p>
+    <p><input type="number" id="mobile"></p>
+    <p></p>
+    <p><input type="text" id="adress1"></p>
+    <p><input type="text" id="adress2"></p>
+    <p><input type="text" id="adress3"></p>
+  </article>
+</fieldset>
+<!--<input list="in" id="gender"></p>
+<datalist id="in"><option value="male">male</option>
+<option value="female">female</option></datalist>-->
+</form>
+  <form id="event">
+    <fieldset>
+    <legend><h2><u>Event Selector</u></h2></legend>
+    <table border="1px" id="event_select">
+        <tr >
+          <th></th>
+          <th><u>Individual Event</u></th>
+          <th><u>Group Event</u></th>
+      </tr>
+      <tr>
+          <td>Event 1</td>
+          <td><select id="I1" class="t1">
+                <option>--select--</option>
+                <option value="100m Race">100m Race</option>
+                <option value="200m Race">200m Race</option>
+                <option value="400m Race">400m Race</option>
+                <option value="long jump">long jump</option>
+                <option value="shotput">shotput</option>
+              </select>
+          </td>
+          <td><select id="G1" class="t1">
+                <option >--select--</option>
+                <option value="cricket">cricket</option>
+                <option value="football">football</option>
+                <option value="Kho-Kho">Kho-Kho</option>
+                <option value="Kabbadi">Kabbadi</option>
+              </select>
+          </td>
+      </tr>
+      <tr>
+        <td>Event 2</td>
+        <td><select id="I2" class="t1">
+              <option >--select--</option>
+              <option value="100m Race">100m Race</option>
+              <option value="200m Race">200m Race</option>
+              <option value="400m Race">400m Race</option>
+              <option value="long jump">long jump</option>
+              <option value="shotput">shotput</option>
+            </select>
+        </td>
+        <td><select id="G2" class="t1">
+              <option >--select--</option>
+              <option value="cricket">cricket</option>
+              <option value="football">football</option>
+              <option value="Kho-Kho">Kho-Kho</option>
+              <option value="Kabbadi">Kabbadi</option>
+            </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Event 3</td>
+        <td><select id="I3" class="t1">
+              <option >--select--</option>
+              <option value="100m Race">100m Race</option>
+              <option value="200m Race">200m Race</option>
+              <option value="400m Race">400m Race</option>
+              <option value="long jump">long jump</option>
+              <option value="shotput">shotput</option>
+            </select>
+        </td>
+        <td><select id="G3" class="t1">
+              <option >--select--</option>
+              <option value="cricket">cricket</option>
+              <option value="football">football</option>
+              <option value="Kho-Kho">Kho-Kho</option>
+              <option value="Kabbadi">Kabbadi</option>
+            </select>
+        </td>
+      </tr>
+    </table>
+  </fieldset>
+  </form>
+  <div align="center"><button type="button" name="button">Submit</button></div>
+
+</body>
+<footer>
+  MADE BY GOPA
+</footer>
+
+</html>
